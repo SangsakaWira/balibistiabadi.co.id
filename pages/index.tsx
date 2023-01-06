@@ -37,7 +37,7 @@ export default function Home() {
           <h2 className={inter.className} style={{ fontSize: "40px", marginTop: "-60px" }}>PT Bali Bisti Abadi</h2>
         </div>
         <div className={styles.center} style={{ marginTop: "-30px" }}>
-          <p>We are still developing our website. Will be updated ver soon.</p>
+          <p>We are still developing our website. Will be updated very soon.</p>
         </div>
         <div className={styles.center} style={{ marginTop: "-30px" }}>
           <p>Whatsapp: +6285899731884 Email: info@balibistiabadi.co.id</p>
