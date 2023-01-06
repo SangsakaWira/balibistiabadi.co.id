@@ -7,24 +7,24 @@ import styles from '../styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  <NextSeo
-  title="PT Bali Bisti Abadi | Distributor Pupuk dan Resto"
-  description="PT Bali Bisti Abadi adalah perusahaan yang bergerak dibidang distribusi pupuk dan restoran."
-  canonical="https://www.balibistiabadi.co.id"
-  openGraph={{
-    url: 'https://www.balibistiabadi.co.id',
-    title: 'PT Bali Bisti Abadi | Distributor Pupuk dan Resto',
-    description: 'PT Bali Bisti Abadi adalah perusahaan yang bergerak dibidang distribusi pupuk dan restoran.',
-    images: [
-      {
-        url: '/favicon.png',
-        width: 20,
-        height: 20,
-        alt: 'BBA Favicon',
-        type: 'image/png',
-      },]
-    }}
-/>
+  // <NextSeo
+  //   title="PT Bali Bisti Abadi | Distributor Pupuk dan Resto"
+  //   description="PT Bali Bisti Abadi adalah perusahaan yang bergerak dibidang distribusi pupuk dan restoran."
+  //   canonical="https://www.balibistiabadi.co.id"
+  //   openGraph={{
+  //     url: 'https://www.balibistiabadi.co.id',
+  //     title: 'PT Bali Bisti Abadi | Distributor Pupuk dan Resto',
+  //     description: 'PT Bali Bisti Abadi adalah perusahaan yang bergerak dibidang distribusi pupuk dan restoran.',
+  //     images: [
+  //       {
+  //         url: '/favicon.png',
+  //         width: 20,
+  //         height: 20,
+  //         alt: 'BBA Favicon',
+  //         type: 'image/png',
+  //       },]
+  //   }}
+  // />
   return (
     <>
       <Head>
@@ -35,7 +35,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
-        <div style={{width: '100%', height: '100%', position: 'relative'}}>
+          <div style={{ width: '100%', height: '100%', position: 'relative' }}>
           </div>
           <Image
             src="/logo-white.png"
@@ -45,16 +45,16 @@ export default function Home() {
             priority
           />
         </div>
-        <a style={{marginBottom:"30px"}} href={"https://www.canva.com/design/DAFW3JLa9gw/Vt25j-3IwwGjRAnCXXisgg/view?utm_content=DAFW3JLa9gw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"}>
-          <button style={{padding:"20px"}}>Download Company Profile</button>
+        <a style={{ marginBottom: "30px" }} href={"https://www.canva.com/design/DAFW3JLa9gw/Vt25j-3IwwGjRAnCXXisgg/view?utm_content=DAFW3JLa9gw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"}>
+          <button style={{ padding: "20px" }}>Download Company Profile</button>
         </a>
         <div className={styles.center}>
-          <h2 className={inter.className} style={{fontSize:"40px",marginTop:"-60px"}}>PT Bali Bisti Abadi</h2>
-        </div>  
-        <div className={styles.center} style={{marginTop:"-40px"}}>
+          <h2 className={inter.className} style={{ fontSize: "40px", marginTop: "-60px" }}>PT Bali Bisti Abadi</h2>
+        </div>
+        <div className={styles.center} style={{ marginTop: "-40px" }}>
           <p>Website kami sedang proses update teknologi terbaru</p>
         </div>
-        <div className={styles.center} style={{marginTop:"-40px"}}>
+        <div className={styles.center} style={{ marginTop: "-40px" }}>
           <p>Whatsapp: +6285899731884 Email: info@balibistiabadi.co.id</p>
         </div>
       </main>
