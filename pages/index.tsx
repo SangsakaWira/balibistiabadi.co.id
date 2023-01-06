@@ -27,10 +27,10 @@ export default function Home() {
             priority
           />
         </div>
-        <a style={{ marginBottom: "10px",marginTop:"-40px" }} href={"https://www.canva.com/design/DAFW3JLa9gw/Vt25j-3IwwGjRAnCXXisgg/view?utm_content=DAFW3JLa9gw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"} target="_blank">
+        <a style={{ marginBottom: "10px",marginTop:"-40px" }} href={"https://www.canva.com/design/DAFW3JLa9gw/Vt25j-3IwwGjRAnCXXisgg/view?utm_content=DAFW3JLa9gw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"}>
           <button style={{ padding: "20px" }}>Download Company Profile (IND)</button>
         </a>
-        <a style={{ marginBottom: "40px" }} href={"https://www.canva.com/design/DAFW5s-RZTc/U6TGDSXmjuLKCOTJXWl0Yg/view?utm_content=DAFW5s-RZTc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"} target="_blank">
+        <a style={{ marginBottom: "40px" }} href={"https://www.canva.com/design/DAFW5s-RZTc/U6TGDSXmjuLKCOTJXWl0Yg/view?utm_content=DAFW5s-RZTc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"} >
           <button style={{ padding: "20px" }}>Download Company Profile (ENG)</button>
         </a>
         <div className={styles.center}>
