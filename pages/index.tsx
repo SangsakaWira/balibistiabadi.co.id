@@ -2,10 +2,23 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import axios from 'axios'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  const onClickIndo = ()=>{
+    window.location.href = "https://www.canva.com/design/DAFW3JLa9gw/Vt25j-3IwwGjRAnCXXisgg/view?utm_content=DAFW3JLa9gw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+  }
+
+  const onClickEnglish = ()=>{
+    window.location.href = "https://www.canva.com/design/DAFW5s-RZTc/U6TGDSXmjuLKCOTJXWl0Yg/view?utm_content=DAFW5s-RZTc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+  }
+
+  const onClickRegis = ()=>{
+    window.location.href = "https://forms.gle/FRzhiPKmvhRiaLmw7"
+  }
   
   return (
     <>
@@ -17,7 +30,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
-          <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+          <div style={{ width: '100%', height: '100%', position: 'relative',marginTop:"-40px" }}>
           </div>
           <Image
             src="/logo-white.png"
@@ -27,12 +40,9 @@ export default function Home() {
             priority
           />
         </div>
-        <a style={{ marginBottom: "10px",marginTop:"-40px" }} href={"https://www.canva.com/design/DAFW3JLa9gw/Vt25j-3IwwGjRAnCXXisgg/view?utm_content=DAFW3JLa9gw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"}>
-          <button style={{ padding: "20px" }}>Download Company Profile (IND)</button>
-        </a>
-        <a style={{ marginBottom: "40px" }} href={"https://www.canva.com/design/DAFW5s-RZTc/U6TGDSXmjuLKCOTJXWl0Yg/view?utm_content=DAFW5s-RZTc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"} >
-          <button style={{ padding: "20px" }}>Download Company Profile (ENG)</button>
-        </a>
+        <button style={{ marginBottom: "10px",marginTop:"-40px",padding: "20px"  }} onClick={onClickIndo}>Download Company Profile (IND)</button>
+        <button style={{ padding: "20px",marginBottom:"40px" }} onClick={onClickEnglish}>Download Company Profile (ENG)</button>
+        <button style={{ padding: "20px",marginBottom: "60px",marginTop:"-30px" }} onClick={onClickRegis}>Agent Registration</button>
         <div className={styles.center}>
           <h2 className={inter.className} style={{ fontSize: "40px", marginTop: "-60px" }}>PT Bali Bisti Abadi</h2>
         </div>
